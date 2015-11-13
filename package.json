@@ -1,0 +1,18 @@
+{
+  "name": "scoped-function-babel-bug",
+  "version": "1.0.0",
+  "description": "Class scoped function showing syntax error if extends a parent",
+  "main": "index.js",
+  "scripts": {
+    "reproduce": "node ./run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienvincent/scoped-function-babel-bug.git"
+  },
+  "dependencies": {
+    "babel": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18"
+  }
+}
